@@ -1,9 +1,11 @@
 body{
-  background-color: purple
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   color: pink;
+}
+body{
+    background-color: purple
 }
 
 h1,
@@ -28,12 +30,25 @@ p{
 .nav-link{
   width: 120px
   border: 2px solid black
-
   text-align: center;
   display: inline-block;
 }
 
 .nav-link a{
   text-decoration: none;
+  font-family: fantasy;
   color: red
+}
+
+.btn {
+	border-radius: 5px;
+	display: inline-block;
+	margin: 0;
+  font-family: cursive;
+  color: white
+}
+
+.btn-alt {
+	border: 1px solid #dfe2e5;
+	padding: 10px 30px;
 }
