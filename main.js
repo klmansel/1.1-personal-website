@@ -10,10 +10,3 @@
             document.getElementById("imgClickAndChange").src = "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQRwbWjYrX603ejYbsJzLWxrh3twn40kf8BKcDEm7kTgIWej05I";
         }
     }
-
-
-    function blinker() {
-    $('.blinking').fadeOut(500);
-    $('.blinking').fadeIn(500);
-    }
-    setInterval(blinker, 1000);
