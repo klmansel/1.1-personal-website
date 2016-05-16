@@ -3,26 +3,54 @@
   <head>
     <meta charset="utf-8"/>
     <title>Dream Cats</title>
-  </head>
+    <script type="text/javascript">
+    var blinkLength = 500;
+    function blink1(){
+    	document.getElementById('div1').style.display = "block";
+    	t1=setTimeout("blink2()",blinkLength);
+    }
+    function blink2(){
+    	document.getElementById('div1').style.display = "none";
+    	t2=setTimeout("blink1()",blinkLength);
+    }
+    </script>
+    </head>
+    <body onload="blink1()">
+    <div id="div1">Awesome Cats</div>
+
     <link rel="stylesheet" href="styles.css">
-  <body>
-    <h1>Awesome Cats</h1>
-    <a href="http://www.animatedimages.org/cat-cats-209.htm"><img src="http://www.animatedimages.org/data/media/209/animated-cat-image-0394.gif" border="0" alt="animated-cat-image-0394"/></a>
-    <h2>Some cats are just awesome
+    <script type="text/javascript" src="main.js"></script>
+
+
+    <h1>
+      
+
+    </h1>
+    <a href="index.html"><img src="http://www.animatedimages.org/data/media/209/animated-cat-image-0394.gif" border="0" alt="animated-cat-image-0394"/></a>
+    <h2>
+      <marquee behavior="scroll" direction="left">Some Cats Are Just More Awesome Than Others!</marquee>
     <br>
-    <a class="button btn-alt" href="images/Greetings-from-the-Internet-Cats.png">The Internet of Cats</a>
-  </h2>
+    </h2>
+    <!--<a class="button btn-alt" href="images/Greetings-from-the-Internet-Cats.png" img alt="" src="images/Greetings-from-the-Internet-Cats.png"
+              style="height: 85px; width: 198px" id="imgClickAndChange" onclick="changeImage()"  />
+            The Internet of Cats</a> -->
+            <p>
+                <img alt="" src="images/Greetings-from-the-Internet-Cats.png"
+                    style="height: 85px; width: 198px" id="imgClickAndChange" onclick="changeImage()"  />
+          </p>
+
 
     <hr />
     <div class="nav-links">
       <p class="nav-link"><a href="http://www.grumpycats.com/">Grumpy Cat</a><br>
-     <img src ="images/too_good_for_grumpy_cat.jpg"/ height="300" width="300"/>
+     <img src ="images/too_good_for_grumpy_cat.jpg" height="300" width="300"/>
      </p>
 
       <p class="nav-link"><a href="http://www.cutestpaw.com/articles/50-cute-pictures-of-snoopy-the-cat/">
         Snoopy the Cat</a><br>
         <img src ="images/Snoopy-funny-gif.jpg" height="300" width="300"/>
       </p>
+    </div>
 
   <h3>About These Cats</h3>
     <p>Stare at the wall, play with food and get confused by dust. Swat at dog
@@ -36,23 +64,27 @@
         box, meowzer! and where is my slave? I'm getting hungry and stand in front
         of the computer screen. Leave hair everywhere. </p>
 
+        <a id="info" href="http://www.catipsum.com/">Get your own Cat Ipsum here</a>
+
+<h4>Which cat is your favorite?</h4>
+
 <div class="table">
+
   <table style="width:100%">
           <tr>
-            <td>Clicks on Grumpy Cat</td>
+            <td>Votes for Grumpy Cat</td>
             <td>1249</td>
           </tr>
           <tr>
-            <td>Clicks on Snoopy Cat</td>
+            <td>Votes for Snoopy Cat</td>
             <td>2349</td>
-
+          </tr>
   </table>
 
-
+</div>
 
 <footer>
-<a id="info" href="http://www.catipsum.com/">Get your own Cat Ipsum here</a>
-<a href="http://www.animatedgif.net/underconstruction/flyconstr_e0.gif"> </a>
+  <a href="http://www.mikesfreegifs.com/main4/underconstruction/coolconstr.gif"><img src="http://www.mikesfreegifs.com/main4/underconstruction/coolconstr.gif" border="0" alt="Under Construction"> </a>
 </footer>
 
 
