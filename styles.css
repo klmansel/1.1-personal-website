@@ -1,5 +1,5 @@
 body{
-  background-image: url("too_good_for_grumpy_cat.jpg")
+  background-color: purple
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -7,8 +7,14 @@ body{
 }
 
 h1,
-h2{
+h2, h3, p{
   text-align: center;
+  font-family: "Palatino Linotype", serif;
+}
+
+p{
+  font-size: 16px;
+  font-family: "Palatino Linotype", serif;
 }
 
 .nav-links{
@@ -20,10 +26,11 @@ h2{
 }
 
 .nav-link{
+  width: 120px
   border: 2px solid black
-  display: inline-block;
-  width: 120px;
+
   text-align: center;
+  display: inline-block;
 }
 
 .nav-link a{
