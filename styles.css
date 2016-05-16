@@ -1,3 +1,6 @@
+
+
+
 html{
   text-align: center;
   background:
@@ -10,6 +13,8 @@ linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transpar
 background-color: #131313;
 background-size: 20px 20px;
 }
+/*Find out why this would not work in body
+*/
 
 body{
   -webkit-background-size: cover;
@@ -22,7 +27,7 @@ body{
 h1,
 h2, h3{
   text-align: center;
-  font-family: "Palatino Linotype", serif;
+  font-family: "Papyrus", serif;
 }
 
 p{
@@ -53,6 +58,19 @@ p{
 }
 
 .button {
+    background-color: pink;
+    border: none;
+    font-family: fantasy;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+
+/*.button {
   background-color: pink
 	border-radius: 5px;
 	display: inline-block;
@@ -60,11 +78,13 @@ p{
   font-family: cursive;
   color: white;
 }
-
-.btn-alt {
-	border: 1px solid #dfe2e5;
+*/
+btn-alt {
+	border: 1px dotted #dfe2e5;
+  color: white
 	padding: 10px 30px;
 }
+
 
 #info {
   text-align: center;
@@ -74,4 +94,8 @@ p{
   font-family: cursive;
   text-align: center;
   color: white;
+}
+
+table, th, td{
+  border: 1px solid pink
 }
