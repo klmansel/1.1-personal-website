@@ -2,10 +2,40 @@
 <html>
   <head>
     <meta charset="utf-8"/>
+    <link rel="stylesheet" href="styles.css">
+  <title>Awesome Cats</title>
+</head>
+<body>
+    <div id="blink1" class="highlight">Awesome Cats</div>
+<script type="text/javascript">
+<!--
+// blink "on" state
+function show()
+{
+	if (document.getElementById)
+	document.getElementById("blink1").style.visibility = "visible";
+}
+// blink "off" state
+function hide()
+{
+	if (document.getElementById)
+	document.getElementById("blink1").style.visibility = "hidden";
+}
+// toggle "on" and "off" states every 450 ms to achieve a blink effect
+// end after 4500 ms (less than five seconds)
+for(var i=900; i < 9000; i=i+900)
+{
+	setTimeout("hide()",i);
+	setTimeout("show()",i+450);
+}
+-->
+</script>
+    <!-- This code made the page jump up and down-keeping for reference.
+    <script type="text/javascript" src="main.js"></script>
     <title>Dream Cats</title>
-    <script type="text/javascript">
+      <script type="text/javascript">
     var blinkLength = 500;
-    function blink1(){
+  function blink1(){
     	document.getElementById('div1').style.display = "block";
     	t1=setTimeout("blink2()",blinkLength);
     }
@@ -16,16 +46,12 @@
     </script>
     </head>
     <body onload="blink1()">
-    <div id="div1">Awesome Cats</div>
-
-    <link rel="stylesheet" href="styles.css">
-    <script type="text/javascript" src="main.js"></script>
+   <div id="div1">Awesome Cats</div> -->
 
 
-    <h1>
-      
 
-    </h1>
+<hr />
+    <h1> How could we make this any meow fun?</h1>
     <a href="index.html"><img src="http://www.animatedimages.org/data/media/209/animated-cat-image-0394.gif" border="0" alt="animated-cat-image-0394"/></a>
     <h2>
       <marquee behavior="scroll" direction="left">Some Cats Are Just More Awesome Than Others!</marquee>
@@ -50,9 +76,14 @@
         Snoopy the Cat</a><br>
         <img src ="images/Snoopy-funny-gif.jpg" height="300" width="300"/>
       </p>
+      <ul>
+        <li class="nav-link"><a href="funnycats.html">Funny Cats</a></li>
+        <li class="nav-link"><a href="sillycats.html">Silly Cats</a></li>
+        <li class="nav-link"><a href="smartcats.html">Smart Cats</a></li>
+    </ul>
     </div>
 
-  <h3>About These Cats</h3>
+  <h4>About These Cats</h4>
     <p>Stare at the wall, play with food and get confused by dust. Swat at dog
       pooping rainbow while flying in a toasted bread costume in space so hiss at
       vacuum cleaner chase imaginary bugs. Chase after silly colored fish toys around
@@ -84,7 +115,7 @@
 </div>
 
 <footer>
-  <a href="http://www.mikesfreegifs.com/main4/underconstruction/coolconstr.gif"><img src="http://www.mikesfreegifs.com/main4/underconstruction/coolconstr.gif" border="0" alt="Under Construction"> </a>
+  <a href="index.html"><img src="http://www.mikesfreegifs.com/main4/underconstruction/coolconstr.gif" border="0" alt="Under Construction"> </a>
 </footer>
 
 
